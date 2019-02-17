@@ -34,7 +34,11 @@ public class DBHelper extends SQLiteOpenHelper {
                 + "("
                 + DBContact.Table1._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + DBContact.Table1.COLUMN1 + " TEXT, "
-                + DBContact.Table1.COLUMN2 + " TEXT "
+                + DBContact.Table1.COLUMN2 + " TEXT, "
+                + DBContact.Table1.COLUMN3 + " TEXT, "
+                + DBContact.Table1.COLUMN4 + " TEXT, "
+                + DBContact.Table1.COLUMN5 + " TEXT, "
+                + DBContact.Table1.COLUMN6 + " TEXT "
                 + ")"
         );
 

@@ -7,16 +7,11 @@ public class DBContact {
     // Prevent this class from being instantiated
     private DBContact() {}
 
-    /**
-     * TODO - define String constants for table names
-     */
+
 
     public static String TABLE1 = "Table1";
 
 
-    /**
-     * TODO - define String constants for column names for each table
-     */
     public static class Table1 implements BaseColumns
     {
         // Define column names
